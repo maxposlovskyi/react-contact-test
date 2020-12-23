@@ -129,7 +129,7 @@ function ModalView() {
                    data={contacts}
                    onClickRow={onClickRow}
                />
-               {!isLoading && <div id='page-bottom-boundary' ref={bottomBoundaryRef} />}
+               {!isLoading && <div id='page-bottom-boundary' style={{ border: '1px solid white' }}  ref={bottomBoundaryRef} />}
              </CustomScrollbar>
            )}
          </div>

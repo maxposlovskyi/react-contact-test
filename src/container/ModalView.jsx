@@ -142,9 +142,9 @@ function ModalView() {
              </div>
            </div>
            <div>
-             <button className="btn btn-primary btn-sm mx-2" onClick={() => navigate('all')}>All Contacts</button>
-             <button className="btn btn-primary btn-sm mx-2" onClick={() => navigate('us')}>US Contacts</button>
-             <button className="btn btn-danger btn-sm mx-2" onClick={closeModal}>Close</button>
+             <button className="btn btn-primary btn-a btn-sm mx-2" onClick={() => navigate('all')}>All Contacts</button>
+             <button className="btn btn-primary btn-b btn-sm mx-2" onClick={() => navigate('us')}>US Contacts</button>
+             <button className="btn btn-danger btn-c btn-sm mx-2" onClick={closeModal}>Close</button>
            </div>
          </div>
        </div>

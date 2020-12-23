@@ -64,6 +64,7 @@ function ModalView() {
 
   const onChangeQuery = (e) => {
     setSearch(e.target.value)
+    setPage(1)
   }
 
   const onClickRow = (row) => setContact(row)
@@ -128,7 +129,7 @@ function ModalView() {
                    data={contacts}
                    onClickRow={onClickRow}
                />
-               {!isLoading && <div id='page-bottom-boundary' style={{ border: '1px solid red' }} ref={bottomBoundaryRef} />}
+               {!isLoading && <div id='page-bottom-boundary' ref={bottomBoundaryRef} />}
              </CustomScrollbar>
            )}
          </div>

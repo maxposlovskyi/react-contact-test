@@ -1,13 +1,6 @@
 import React from 'react';
-import {useLocation, useHistory} from 'react-router-dom';
 
-function Home() {
-  const location = useLocation();
-  const history = useHistory();
-
-  const navigate = (option) => {
-    history.push(`/contacts/${option}`, { background: location })
-  }
+const HomeComponent = ({ navigate }) => {
   return (
     <div className="d-flex justify-content-center w-100 p-5">
       <button className="btn btn-a btn-primary btn-sm mx-4 rounded-0 px-5" onClick={() => navigate('all')}>Modal A</button>
@@ -16,4 +9,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeComponent;

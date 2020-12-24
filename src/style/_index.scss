@@ -1,32 +1,3 @@
 @import "container";
-
-.btn-a {
-  background-color: white;
-  color: #46139f;
-  border: 1px solid #46139f;
-}
-.btn-a:hover, .btn-a:active, .btn-a:focus {
-  background-color: #46139f;
-  border: 1px solid #46139f;
-}
-
-.btn-b {
-  background-color: white;
-  color: #ff7f50;
-  border: 1px solid #ff7f50;
-}
-
-.btn-b:hover, .btn-b:active, .btn-b:focus {
-  background-color: #ff7f50;
-  border: 1px solid #ff7f50;
-}
-
-.btn-c {
-  background-color: white;
-  color: #ff7f50;
-  border: 1px solid #46139f;
-}
-.btn-c:hover, .btn-c:active, .btn-c:focus {
-  background-color: crimson;
-  border: 1px solid crimson;
-}
+@import "component";
+@import "common";

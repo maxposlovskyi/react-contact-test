@@ -73,7 +73,7 @@ function ModalView() {
       if (!isLoading) setQuery(search)
     }, 2000);
     return () => clearTimeout(timeOutId);
-  }, [search]);
+  }, [search, isLoading]);
 
   useEffect(() => {
     if (option === 'all') {
